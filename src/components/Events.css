@@ -1,0 +1,72 @@
+.events {
+  overflow-x: hidden;
+}
+.events .bg-image {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.events .bg-image::before {
+  content: "";
+  background-image: url("https://w.wallha.com/ws/5/XEsYgO4c.png");
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+  top: 0rem;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  filter: brightness(25%);
+}
+
+.events .content {
+  position: absolute;
+  color: #ffffff;
+  /* font-size: 3rem; */
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  margin-left: 10rem;
+}
+.events .content h1 {
+  position: fixed;
+  margin: 2rem auto;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 16rem;
+}
+.cards li {
+  list-style: none;
+}
+/* .events .content p {
+        font-size: 1.5rem;
+        opacity: 0.5;
+        line-height: 2.3rem;
+        margin-bottom: 1.2rem;
+    } */
+
+@media only screen and (max-width: 990px) {
+  .events .content {
+    margin: 0rem 0rem;
+  }
+  .events .content p {
+    margin: 0;
+  }
+  .events .content {
+    font-size: 1rem;
+  }
+  .events .content h1 {
+    text-align: center;
+    position: relative;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+}

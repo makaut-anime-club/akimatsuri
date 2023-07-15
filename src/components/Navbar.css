@@ -1,0 +1,42 @@
+/* .navbar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;   
+    display: flex;
+    color: white;
+    background: rgba(0, 0, 0, 0.775);
+}
+
+.navbar .logo {
+    width: 50%;
+    padding: 0 3rem;
+}
+
+.logo img {
+    height: 2.5rem;
+    position: relative;
+    top: 4px;
+}
+
+.navbar .list {
+    margin: 1rem 0;
+}
+
+.navbar .list ul{
+    width: 50%;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar  ul li {
+    margin: 0 3rem;
+}
+.navbar ul li:hover {
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+} */

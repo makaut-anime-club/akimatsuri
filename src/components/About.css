@@ -1,0 +1,53 @@
+.about .bg-image {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.about .bg-image::before {
+  content: "";
+  background-image: url('https://wallpaperaccess.com/full/2143826.png');
+  background-size: cover;
+  position: absolute;
+  top: 0rem;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  filter: brightness(10%);
+}
+
+.about .content {
+  margin: 8rem 10rem;
+  position: absolute;
+  color: #ffffff;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+.about .content p {
+    font-size: 1.5rem;
+    opacity: 0.5;
+    line-height: 2.3rem;
+    margin-bottom: 1.2rem;
+}
+
+@media only screen and (max-width: 700px){
+    .about .content {
+        font-size: 1.5rem;
+        margin: 5rem 2rem;
+    }
+    .about .content p{
+        font-size: 1rem;
+        /* margin: 0; */
+    }
+    .about .bg-image::before {
+        background-image: url('https://i.pinimg.com/736x/db/d2/17/dbd2173bea90c16a0cec17ef21ba5c51.jpg');
+        background-position: 50% top;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% auto;
+    }
+}
