@@ -3,9 +3,9 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const carouselImages = [
 {src:"https://i.ibb.co/r4QrVKj/Event-Teasers-Cosplay.png", alt:"Cosplay"},
-{src:"https://i.ibb.co/XDvZt0V/Event-Teasers-Quiz.png", alt:"Quiz competition"},
+{src:"https://i.ibb.co/0ng19p6/Event-Teasers-Quiz-4.png", alt:"Quiz competition"},
 {src:"https://i.ibb.co/G7nxPKH/Event-Teasers-1.png", alt:"Drawing Competition"},
-{src:"https://i.ibb.co/qx6YTPR/Event-Teasers-Meme.png", alt:"Meme making Competition"},
+{src:"https://i.ibb.co/qx6YTPR/Event-Teasers-Meme.png", alt:"Meme Competition"},
 {src:"https://i.ibb.co/6rQZfLy/Event-Teasers-Karaoke.png", alt:"Karaoke Competition"},
 ]
 
@@ -21,7 +21,7 @@ function UncontrolledExample() {
           style={{height: '20rem', width: '30rem', borderRadius: '1rem', filter: 'brightness(50%)' }}
         />
         <Carousel.Caption>
-          <h3 style={{textShadow: '1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue'}}>{carouselImages[0].alt}</h3>
+          <h3 style={{ textShadow: '1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue'}}>{carouselImages[0].alt}</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item style={{height: '400px'}}>
