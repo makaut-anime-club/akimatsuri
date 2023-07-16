@@ -7,9 +7,9 @@ const Card = ({title, body, link, imgLink, imgDescription}) => {
         <p className="card-text" >
           {body.map(para=><p style={{marginBottom: "1rem"}} key={para}>{para}</p>)}
         </p>
-        <a href={link} className="btn btn-secondary" style={{boxShadow: 'inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)'}}>
-          Go to Event
-        </a>
+        <button disabled={link.trim().length===0} href={link} className="btn btn-secondary" style={{boxShadow: 'inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3)'}}>
+          {link.trim().length ? 'Go to Event' : 'Registrations opening soon'}
+        </button>
       </div>
     </div>
   );

@@ -38,7 +38,7 @@ const Events = () => {
     <section id="events" className="events">
       <div className="bg-image">
         <div className="content">
-          <h1>{content.events.title}</h1>
+          <h1>{events.length ? 'Events' : 'No events found'}</h1>
           <ul className="cards">
             {events.map((event) => (
               <li key={event.id}>
