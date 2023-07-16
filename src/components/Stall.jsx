@@ -1,7 +1,6 @@
 import React from "react";
 
 import './Stall.css'
-import content from '../json/content';
 
 const Stall = () => {
   return (

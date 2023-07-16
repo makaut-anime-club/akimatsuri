@@ -1,6 +1,10 @@
 import React from "react";
 import {FaInstagramSquare as Instagram} from "react-icons/fa"
 import {BsDiscord as Discord} from "react-icons/bs"
+import {BiHome as HomeIcon} from "react-icons/bi"
+import {BsInfoCircle as AboutIcon} from "react-icons/bs"
+import {BsCalendarEvent as EventsIcon} from "react-icons/bs"
+import {BsShop as StallsIcon} from "react-icons/bs"
 import { Link } from "react-router-dom";
 
 import "./Navbar.css";
@@ -25,59 +29,26 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/">Home</Link>
+              <Link className="nav-link" aria-current="page" to="/"><HomeIcon className="icon-sp" size={20}/> Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
+              <Link className="nav-link" to="/about"><AboutIcon className="icon-sp" size={20}/> About</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/events">Events</Link>
+              <Link className="nav-link" to="/events"><EventsIcon className="icon-sp" size={20}/> Events</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/stalls">Stalls</Link>
+              <Link className="nav-link" to="/stalls"><StallsIcon className="icon-sp" size={20}/> Stalls</Link>
             </li>
 
           </ul>
-          <form className="d-flex" role="link">
-            <a href="https://www.instagram.com/makaut_animeclub" style={{marginRight:'1.5rem'}}><Instagram size={42}/></a>
-            <a href="https://discord.gg/F4GyEkFTxN" style={{marginRight:'1.5rem'}}><Discord size={42}/></a>
+          <form className="d-flex justify-content-end" role="link">
+            <a href="https://www.instagram.com/makaut_animeclub" style={{marginRight:'2rem'}}><Instagram size={42}/></a>
+            <a href="https://discord.gg/F4GyEkFTxN" style={{marginRight:'2rem'}}><Discord size={42}/></a>
           </form>
         </div>
       </div>
     </nav>
-
-    //     <div className="collapse navbar-collapse" id="navbarNav">
-    //       <ul className="navbar-nav">
-    //         <li className="nav-item">
-    //           <Link to="/" className="nav-link" aria-current="page">
-    //             Home
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link to="/about" className="nav-link" >
-    //             About
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link to="/events" className="nav-link">
-    //             Events
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link to="/stalls" className="nav-link">
-    //             Stalls
-    //           </Link>
-    //         </li>
-    //       </ul>
-    //       <form className="d-flex">
-    //                     {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> */}
-    //                     <Link className="btn btn-primary mx-1" to="/login" role="button">Login</Link>
-    //                     <Link className="btn btn-primary mx-1" to="/signup" role="button">Sign up</Link>
-    //                 </form>
-    //     </div>
-    //   </div>
-    // </nav>
-
   );
 };
 

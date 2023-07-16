@@ -40,3 +40,29 @@
     text-decoration: none;
     color: white;
 } */
+
+.icon-sp{
+    margin: 0.5rem 1rem;
+    margin-top: 2px solid white;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav {
+        float:none;
+        margin:0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-nav > li {
+        font-size: 1.2rem;
+        display: inline-block;
+        float:none;
+        margin: 0 1.5rem;
+    }
+
+    .icon-sp {
+        display: none;
+    }
+
+}
