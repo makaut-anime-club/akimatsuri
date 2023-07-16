@@ -38,3 +38,16 @@
     line-height: 2.3rem;
     margin-bottom: 1.2rem;
   }
+
+  @media only screen and (max-width: 700px){
+    .stall .content {
+      margin: 5rem 2rem;
+      line-height: 23rem;
+
+    }
+    .stall .content p{
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+
+  }

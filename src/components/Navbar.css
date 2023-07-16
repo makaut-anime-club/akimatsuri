@@ -40,8 +40,3 @@
     text-decoration: none;
     color: white;
 } */
-
-.space-bw {
-    display: flex;
-    justify-content: space-between;
-}

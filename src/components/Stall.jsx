@@ -8,7 +8,7 @@ const Stall = () => {
     <section id="stall" className="stall">
       <div className="bg-image">
         <div className="content">
-          <h1>{content.stall.title}</h1>
+          <p>Coming soon ...</p>
         </div>
       </div>
     </section>
