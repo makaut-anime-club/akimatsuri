@@ -1,7 +1,6 @@
 import React from 'react'
 
 import './About.css'
-import content from '../json/content';
 
 const About = () => {
   return (
