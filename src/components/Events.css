@@ -19,7 +19,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  filter: brightness(25%);
+  filter: brightness(30%);
 }
 
 .events .content {
@@ -52,6 +52,7 @@
 @media only screen and (max-width: 990px) {
   .events .content {
     margin: 0rem 0rem;
+    margin-right: 1.75rem;
   }
   .events .content p {
     margin: 0;

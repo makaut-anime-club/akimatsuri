@@ -5,20 +5,20 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{backgroundColor: 'black', color: 'white'}}>
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid space-bw">
+        <a className="navbar-brand" href="#">
           <img
             src="https://lh3.googleusercontent.com/a/AAcHTtdbald_ZCkvT2lRRQndb2KlgRdvqqH1gwknJspqxUFC2g=s96-c-rg-br100"
             alt="Logo"
             width="40"
             height="40"
-            class="d-inline-block align-text-top"
+            className="d-inline-block align-text-top"
           />
-          
+
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -26,27 +26,27 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <Link to="/" class="nav-link" aria-current="page">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link to="/" className="nav-link" aria-current="page">
                 Home
               </Link>
             </li>
-            <li class="nav-item">
-              <Link to="/about" class="nav-link" >
+            <li className="nav-item">
+              <Link to="/about" className="nav-link" >
                 About
               </Link>
             </li>
-            <li class="nav-item">
-              <Link to="/events" class="nav-link">
+            <li className="nav-item">
+              <Link to="/events" className="nav-link">
                 Events
               </Link>
             </li>
-            <li class="nav-item">
-              <Link to="/stalls" class="nav-link">
+            <li className="nav-item">
+              <Link to="/stalls" className="nav-link">
                 Stalls
               </Link>
             </li>

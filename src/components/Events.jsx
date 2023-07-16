@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 // import events from "../json/events";
 import "./Events.css";
 import content from "../json/content";
-import Card from "./Card";
+import Card from "./UI/Card";
 
 const Events = () => {
     const [events, setEvents] = useState([]);

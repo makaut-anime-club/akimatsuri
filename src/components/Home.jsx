@@ -2,6 +2,7 @@ import React from "react";
 
 import './Home.css'
 import content from '../json/content';
+import Carousel from "./UI/Carousel";
 
 const Home = () => {
   return (
@@ -9,9 +10,10 @@ const Home = () => {
       <div className="bg-image">
         <div className="content">
           <h1>{content.home.title}</h1>
-          <p>{content.home.p1}</p>
-          <p>{content.home.p2}</p>
-          <p>{content.home.p3}</p>
+          <p>Welcoming all the anime and manga enthusiasts to this amazing festival</p>
+          <div className="car-ousel">
+            <Carousel />
+          </div>
         </div>
       </div>
     </section>
