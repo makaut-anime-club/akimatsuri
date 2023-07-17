@@ -23,6 +23,7 @@
 }
 
 .events .content {
+  padding: 1rem 0 4rem 0;
   position: absolute;
   color: #ffffff;
   /* font-size: 3rem; */
@@ -49,7 +50,16 @@
         margin-bottom: 1.2rem;
     } */
 
+    .content {
+      /* overflow-y: auto; */
+      /* height: calc(100% - 30px); */
+    }
+
+
 @media only screen and (max-width: 990px) {
+  .events {
+    overflow-y: visible;
+  }
   .events .content {
     margin: 0rem 0rem;
     margin-right: 1.75rem;
@@ -59,6 +69,7 @@
   }
   .events .content {
     font-size: 1rem;
+    margin-bottom: 10rem;
   }
   .events .content h1 {
     text-align: center;

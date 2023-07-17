@@ -40,6 +40,9 @@
     text-decoration: none;
     color: white;
 } */
+nav{
+    font-family: 'Poppins', sans-serif;
+}
 
 .icon-sp{
     margin: 0.5rem 1rem;

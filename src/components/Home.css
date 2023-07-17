@@ -53,6 +53,9 @@
   .home .content {
     margin: 5rem 2rem;
   }
+  .home .content h1{
+    font-size: 3rem;
+}
   .home .content p{
       font-size: 1rem;
         /* margin: 0; */
@@ -68,5 +71,21 @@
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-size: 100% auto;
+    }
+}
+@media only screen and (max-width: 375px){
+
+    .home .content {
+        margin: 3rem 2rem;
+    }
+    .home .content h1{
+        font-size: 1.5rem;
+    }
+    .home .bg-image::before {
+        background-image: url('https://is.zobj.net/image-server/v1/images?r=5pQYsefpAIpi0dzwlTqQvmrWMTXcGyIt-VpihRYARp5iv_9mppvfAITUJ0qMSAp6rwM80ZLmQ7B2bU-XUcSapSoVNcOD1ZqB1i296AZdbrv1UdZKFVOlCcBR-IQaAaj1U92yYrnkKBFaz_1qS_VvSWb_lAYJeht_KTzmmyp4dG6I1WRIaioYhKLNd-KbsMYfnHODYjEJTRm0mB3FLbPn0CSZ480vzWzVB-gFf7T7wESUFIVTSyKr8fvVznY');
+        background-position: 50% top;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 125% auto;
     }
 }
