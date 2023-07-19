@@ -27,7 +27,7 @@ const Navbar = () => {
             className="d-inline-block align-text-top"
           />
         </a>
-        <button onClick={toggleNav} className={navOpen ? "navbar-toggler" : "navbar-toggler collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button onClick={toggleNav} className={navOpen ? "navbar-toggler" : "navbar-toggler collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{border: '0px'}}>
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className={
@@ -51,8 +51,8 @@ const Navbar = () => {
 
           </ul>
           <form className="d-flex justify-content-end" role="link">
-            <a href="https://www.instagram.com/makaut_animeclub" style={{ marginRight: '2rem' }}><Instagram size={42} /></a>
-            <a href="https://discord.gg/F4GyEkFTxN" style={{ marginRight: '2rem' }}><Discord size={42} /></a>
+            <a href="https://www.instagram.com/makaut_animeclub" style={{ marginRight: '2rem' }}><Instagram size={35} /></a>
+            <a href="https://discord.gg/F4GyEkFTxN" style={{ marginRight: '2rem' }}><Discord size={35} /></a>
           </form>
         </div>
       </div>

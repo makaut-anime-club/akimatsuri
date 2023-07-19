@@ -9,13 +9,16 @@ const Home = () => {
     <section id="home" className="home">
       <div className="bg-image">
         <div className="content">
-          <h1>{content.home.title}</h1>
-          <p>Welcoming all the anime and manga enthusiasts to this amazing festival</p>
+          <div className="info">
+            <h1>{content.home.title}</h1>
+            <p>Welcoming all the anime and manga enthusiasts to this amazing festival</p>
+          </div>
           <div className="car-ousel">
             <Carousel />
+
+            </div>
           </div>
         </div>
-      </div>
     </section>
   );
 };

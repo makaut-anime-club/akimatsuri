@@ -21,7 +21,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  filter: brightness(25%);
+  filter: brightness(12%);
 }
 
 .about .content {
@@ -57,5 +57,6 @@
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-size: 100% auto;
+        filter: brightness(15%);
     }
 }

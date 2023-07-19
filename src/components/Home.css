@@ -28,19 +28,22 @@
 
 .home .content {
   text-align: center;
-  margin: 8rem 20rem;
-  position: absolute;
+  /* padding: 8rem auto; */
+  position: relative;
   color: #ffffff;
   font-size: 3rem;
   line-height: 1.25;
   font-family: "Roboto", sans-serif;
-  /* display: flex; */
-  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
   margin-bottom: 3rem;
+  /* z-index: 10000; */
+  overflow: hidden;
 }
 .home .content h1 {
   font-size: 4rem;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 0;
 }
 .home .content p {
   font-size: 1.5rem;
@@ -48,12 +51,30 @@
   line-height: 2.3rem;
   margin-bottom: 1.2rem;
 }
-
+.home .content .car-ousel {
+  margin: 0 auto;
+}
 @media only screen and (max-width: 700px){
   .home .content {
-    margin: 5rem 2rem;
+    text-align: center;
+    margin: 8rem auto;
+    position: absolute;
+    color: #ffffff;
+    font-size: 3rem;
+    line-height: 1.25;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    /* z-index: 10000; */
+    overflow: hidden;
+  }
+  .home .content {
+    margin: 0rem 2rem;
   }
   .home .content h1{
+    margin-top: 0;
     font-size: 3rem;
 }
   .home .content p{
@@ -64,6 +85,7 @@
         font-size: 1.5rem;
         margin: 5rem 2rem;
         margin-bottom: 1.5rem;
+        overflow: hidden;
     }
     .home .bg-image::before {
         background-image: url('https://is.zobj.net/image-server/v1/images?r=5pQYsefpAIpi0dzwlTqQvmrWMTXcGyIt-VpihRYARp5iv_9mppvfAITUJ0qMSAp6rwM80ZLmQ7B2bU-XUcSapSoVNcOD1ZqB1i296AZdbrv1UdZKFVOlCcBR-IQaAaj1U92yYrnkKBFaz_1qS_VvSWb_lAYJeht_KTzmmyp4dG6I1WRIaioYhKLNd-KbsMYfnHODYjEJTRm0mB3FLbPn0CSZ480vzWzVB-gFf7T7wESUFIVTSyKr8fvVznY');

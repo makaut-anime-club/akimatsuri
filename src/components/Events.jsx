@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 
 // import events from "../json/events";
 import "./Events.css";
-import content from "../json/content";
 import Card from "./UI/Card";
 
 const Events = () => {
     const [events, setEvents] = useState([]);
+    const [loading, setLoading] = useState(false);
 
     useEffect(
         () => {
@@ -31,15 +31,18 @@ const Events = () => {
                 }
                 setEvents(loadedEvents);
             }
+            setLoading(true)
             fetchEvents();
+            setLoading(false)
         }
     ,[])
   return (
     <section id="events" className="events">
       <div className="bg-image">
         <div className="content">
-          <h1>{events.length ? 'Events' : 'No events found'}</h1>
-          <ul className="cards">
+          {loading && <h1>Loading...</h1>}
+          {!loading && <h1>{events.length > 0? 'Events' : 'Nothing  found'}</h1>}
+          {!loading && <ul className="cards">
             {events.map((event) => (
               <li key={event.id}>
                 <Card
@@ -51,7 +54,7 @@ const Events = () => {
                 />
               </li>
             ))}
-          </ul>
+          </ul>}
         </div>
       </div>
     </section>

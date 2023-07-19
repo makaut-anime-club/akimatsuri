@@ -1,5 +1,6 @@
 .events {
   overflow-x: hidden;
+  overflow-y: auto;
 }
 .events .bg-image {
   position: relative;
@@ -7,6 +8,7 @@
   width: 100vw;
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .events .bg-image::before {
