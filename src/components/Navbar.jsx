@@ -51,8 +51,8 @@ const Navbar = () => {
 
           </ul>
           <form className="d-flex justify-content-end" role="link">
-            <a href="https://www.instagram.com/makaut_animeclub" style={{ marginRight: '2rem' }}><Instagram size={35} /></a>
-            <a href="https://discord.gg/F4GyEkFTxN" style={{ marginRight: '2rem' }}><Discord size={35} /></a>
+            <a href="https://www.instagram.com/makaut_animeclub" style={{ marginRight: '1rem' }}><img src="https://cdn.discordapp.com/attachments/1139851071930519562/1139856715446231080/icons8-instagram-48_1.png" width={'100%'}></img></a>
+            <a href="https://discord.gg/F4GyEkFTxN" style={{ marginRight: '2rem' }}><img src="https://cdn.discordapp.com/attachments/1139851071930519562/1139856715664339065/icons8-discord-48_1.png" width={'100%'}></img></a>
           </form>
         </div>
       </div>

@@ -18,7 +18,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src={carouselImages[0].src}
           alt={carouselImages[0].alt}
-          style={{height: '20rem', width: '30rem,', borderRadius: '1rem', filter: 'brightness(75%)'}}
+          style={{height: '20rem', width: '30rem,', borderRadius: '1rem', filter: 'brightness(90%)'}}
         />
         <Carousel.Caption>
           <h3 style={{ textShadow: '1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue'}}>{carouselImages[0].alt}</h3>
@@ -29,7 +29,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src={carouselImages[1].src}
           alt={carouselImages[1].alt}
-          style={{height: '20rem', width: '30rem', borderRadius: '1rem', filter: 'brightness(75%)' }}
+          style={{height: '20rem', width: '30rem', borderRadius: '1rem', filter: 'brightness(90%)' }}
         />
 
         <Carousel.Caption>
@@ -41,7 +41,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src={carouselImages[2].src}
           alt={carouselImages[2].alt}
-          style={{height: '20rem', width: '30rem', borderRadius: '1rem', filter: 'brightness(75%)' }}
+          style={{height: '20rem', width: '30rem', borderRadius: '1rem', filter: 'brightness(90%)' }}
         />
 
         <Carousel.Caption>
@@ -53,7 +53,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src={carouselImages[3].src}
           alt={carouselImages[3].alt}
-          style={{height: '20rem', width: '30rem', borderRadius: '1rem', filter: 'brightness(75%)' }}
+          style={{height: '20rem', width: '30rem', borderRadius: '1rem', filter: 'brightness(90%)' }}
         />
 
         <Carousel.Caption>
@@ -65,7 +65,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src={carouselImages[4].src}
           alt={carouselImages[4].alt}
-          style={{height: '20rem', width: '30rem', borderRadius: '1rem', filter: 'brightness(75%)' }}
+          style={{height: '20rem', width: '30rem', borderRadius: '1rem', filter: 'brightness(90%)' }}
         />
 
         <Carousel.Caption>
