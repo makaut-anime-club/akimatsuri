@@ -1,6 +1,6 @@
 .footer {
+    height: 100vh;
     background: linear-gradient(#543754, #955a95, #f044f0);
-    height: 40vh;
     display: flex;
     justify-content: space-around;
     padding: 0 0 5rem;
@@ -24,7 +24,7 @@
 
 @media only screen and (max-width: 500px) {
     .footer {
-        height: 100vh;
+        height: auto;
         flex-direction: column;
     }
     .footer .social-media {
