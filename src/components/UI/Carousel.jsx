@@ -7,6 +7,7 @@ const carouselImages = [
 {src:"https://i.ibb.co/G7nxPKH/Event-Teasers-1.png", alt:"Drawing"},
 {src:"https://i.ibb.co/qx6YTPR/Event-Teasers-Meme.png", alt:"Meme"},
 {src:"https://i.ibb.co/6rQZfLy/Event-Teasers-Karaoke.png", alt:"Karaoke"},
+{src:"https://i.ibb.co/x6R77r8/AKIMATSURI-Competition-Teasers.png", alt:"Poster"},
 ]
 
 
@@ -70,6 +71,18 @@ function UncontrolledExample() {
 
         <Carousel.Caption>
           <h3 style={{textShadow: '1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue'}}>{carouselImages[4].alt}</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item style={{height: '400px'}}>
+        <img
+          className="d-block w-100"
+          src={carouselImages[5].src}
+          alt={carouselImages[5].alt}
+          style={{height: '20rem', width: '30rem', borderRadius: '1rem', filter: 'brightness(90%)' }}
+        />
+
+        <Carousel.Caption>
+          <h3 style={{textShadow: '1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue'}}>{carouselImages[5].alt}</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

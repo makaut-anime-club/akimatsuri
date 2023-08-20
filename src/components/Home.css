@@ -95,7 +95,8 @@ button:active {
 }
 
 section#info {
-  background: linear-gradient(rgb(202, 124, 137), rgb(232, 159, 171), rgb(165, 165, 218)) !important;
+  /* background:rgb(245, 193, 245) !important; */
+  background: linear-gradient(#aa67aa, white);
 }
 
 section#info .main-info {
@@ -173,7 +174,7 @@ section#activities p {
     margin-top: 0;
     font-size: 3rem;
   }
-
+  
   .home .content p {
     font-size: 1rem;
     /* margin: 0; */
@@ -193,6 +194,7 @@ section#activities p {
     background-attachment: scroll;
     background-size: 100% auto;
   }
+  
   section#info .main-info {
     flex-direction: column;
   }
@@ -205,6 +207,7 @@ section#activities p {
   }
   
   section#activities {
+    background: linear-gradient(white, #aa67aa);
     padding: 10% 0;
     display: flex;
     flex-direction: column;
@@ -214,9 +217,9 @@ section#activities p {
     padding: 7%;
   }
   
-    .car-ousel {
-      margin: 0% 10%;
-    }
+  .car-ousel {
+    margin: 0% 10%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -229,21 +232,34 @@ section#activities p {
     border: black 2px white;
     /* padding: 1rem 1rem; */
   }
+  
   .home .content {
     left: calc(35% - 0.75 * 2rem);
+  }
+  
+  section#activities {
+    background: linear-gradient(white, #475e76) !important;
+  }
+  section#info {
+    /* background:rgb(245, 193, 245) !important; */
+    background: linear-gradient(#475e76, white);
+  }
+  section#info .main-info h1, section#info .main-info div{
+    /* background:rgb(245, 193, 245) !important; */
+    color: white;
   }
 }
 
 @media only screen and (max-width: 375px) {
-
+  
   .home .content {
     /* margin: 3rem 2rem; */
   }
-  
+
   .home .content h1 {
     /* font-size: 1.5rem; */
   }
-
+  
   .home .bg-image::before {
     background-image: url('https://is.zobj.net/image-server/v1/images?r=5pQYsefpAIpi0dzwlTqQvmrWMTXcGyIt-VpihRYARp5iv_9mppvfAITUJ0qMSAp6rwM80ZLmQ7B2bU-XUcSapSoVNcOD1ZqB1i296AZdbrv1UdZKFVOlCcBR-IQaAaj1U92yYrnkKBFaz_1qS_VvSWb_lAYJeht_KTzmmyp4dG6I1WRIaioYhKLNd-KbsMYfnHODYjEJTRm0mB3FLbPn0CSZ480vzWzVB-gFf7T7wESUFIVTSyKr8fvVznY');
     background-position: 50% top;

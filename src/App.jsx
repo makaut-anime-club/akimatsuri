@@ -8,7 +8,7 @@ import Events from './components/Events';
 import Home from './components/Home';
 import Stall from './components/Stall';
 import RootLayout from './pages/Root';
-import * as pika from "./json/pikachu.json";
+import * as pika from "./lottie/Kuru.json";
 import { useEffect, useState } from 'react';
 
 const defaultOption1 = {

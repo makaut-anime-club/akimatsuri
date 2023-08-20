@@ -1,0 +1,35 @@
+.footer {
+    background: #543754;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 5rem;
+    color: white;
+}
+.footer .social-media {
+    margin: 2rem 2rem;
+    border-right: 2px solid #9e499e;
+}
+.footer .social-media2 {
+    margin: 2rem 2rem;
+    border-right: none;
+}
+
+.social-media ul, .social-media2 ul{
+    list-style: none;
+}
+.social-media ul li, .social-media2 ul li{
+    padding: 0.75rem 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .footer {
+        height: 100vh;
+        flex-direction: column;
+    }
+    .footer .social-media {
+        border-right: none;
+        border-bottom: 2px solid #9e499e;
+        width: 15rem;
+    }
+}
