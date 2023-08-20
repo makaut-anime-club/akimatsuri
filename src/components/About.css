@@ -60,3 +60,48 @@
         filter: brightness(15%);
     }
 }
+
+
+.club-images {
+  background: linear-gradient(#ff4500, white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+}
+
+.club-images .club-gallery-heading {
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+.club-images h1{
+  padding: 1rem;
+  color: white;
+text-align: center;
+
+}
+
+.club-images img{
+  width: 30rem;
+  margin: 3rem;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #ff4500;
+}
+.club-images img:nth-child(2) {
+  margin-right: 50%;
+  
+}
+.club-images img:nth-child(3) {
+  margin-left: 50%;
+  
+}
+.club-images img:nth-child(4) {
+  margin-right: 50%;
+  
+}
+.club-images img:nth-child(5) {
+  margin-left: 50%;
+
+
+}

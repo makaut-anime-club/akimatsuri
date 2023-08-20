@@ -1,5 +1,5 @@
 .footer {
-    background: #543754;
+    background: linear-gradient(#543754, #955a95, #f044f0);
     height: 40vh;
     display: flex;
     justify-content: space-around;
@@ -8,7 +8,7 @@
 }
 .footer .social-media {
     margin: 2rem 2rem;
-    border-right: 2px solid #9e499e;
+    border-right: 2px solid #fff;
 }
 .footer .social-media2 {
     margin: 2rem 2rem;
