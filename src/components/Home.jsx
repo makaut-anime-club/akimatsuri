@@ -14,7 +14,7 @@ const Home = () => {
 
       <section id="home" className="home">
         <div className="bg-image center">
-          <div className="banner" style={{ zIndex: '1000000' }}>
+          <div className="banner" style={{ zIndex: '0' }}>
             <img src={width > 600 ? "https://cdn.discordapp.com/attachments/1139851071930519562/1139871205952847872/Akimatsuri_4.png": "https://cdn.discordapp.com/attachments/1139851071930519562/1139853020541227028/Final_4.png"} alt="banner image - akimatsuri" />
           </div>
           <div className="content">

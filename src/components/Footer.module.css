@@ -1,14 +1,15 @@
 .footer {
-    height: 100vh;
+    height: 50vh;
     background: linear-gradient(#543754, #955a95, #f044f0);
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-around !important;
     padding: 0 0 5rem;
     color: white;
 }
 .footer .social-media {
     margin: 2rem 2rem;
-    border-right: 2px solid #fff;
+    /* border-right: 2px solid #fff; */
 }
 .footer .social-media2 {
     margin: 2rem 2rem;
@@ -21,15 +22,28 @@
 .social-media ul li, .social-media2 ul li{
     padding: 0.75rem 1rem;
 }
-
+.footer .map {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem;
+}
 @media only screen and (max-width: 500px) {
     .footer {
+        display: flex;
+        justify-content: space-around !important;
+        align-items: center;
         height: auto;
-        flex-direction: column;
     }
-    .footer .social-media {
+    /* .footer .social-media {
         border-right: none;
         border-bottom: 2px solid #9e499e;
         width: 15rem;
-    }
+    } */
+    .footer .map {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
+
+} 

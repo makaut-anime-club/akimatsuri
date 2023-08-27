@@ -40,7 +40,7 @@
   flex-direction: column;
   /* justify-content: space-between; */
   margin-bottom: 3rem;
-  z-index: 10000;
+  z-index: 1000;
   overflow: hidden;
 }
 

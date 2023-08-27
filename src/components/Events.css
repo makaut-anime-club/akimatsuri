@@ -37,12 +37,12 @@
   position: fixed;
   margin: 2rem auto;
 }
-.cards {
+.events .cards {
   display: flex;
   flex-wrap: wrap;
   margin-left: 16rem;
 }
-.cards li {
+.events .cards li {
   list-style: none;
 }
 /* .events .content p {
@@ -77,7 +77,7 @@
     text-align: center;
     position: relative;
   }
-  .cards {
+  .events .cards {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

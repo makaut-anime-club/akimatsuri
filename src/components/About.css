@@ -99,7 +99,7 @@ text-align: center;
   margin-right: 50%; 
 }
 .club-images img:nth-child(5) {
-  margin-left: 0;
+  margin-left: 50%;
 }
 
 @media only screen and (max-width: 800px) {
