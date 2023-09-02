@@ -3,17 +3,17 @@
   overflow-y: auto;
 }
 .events .bg-image {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
+  /* position: relative; */
+  /* height: 100vh; */
+  /* width: 100vw; */
   display: flex;
   justify-content: center;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .events .bg-image::before {
   content: "";
-  background-image: url("https://w.wallha.com/ws/5/XEsYgO4c.png");
+  background-image: url("https://cdn.discordapp.com/attachments/1139851071930519562/1147219689328623747/Untitled_design_1-OqyP4t_CH-transformed.png");
   background-size: cover;
   position: fixed;
   z-index: -1;
@@ -21,12 +21,12 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  filter: brightness(30%);
+  filter: brightness(50%);
 }
 
 .events .content {
   padding: 1rem 0 4rem 0;
-  position: absolute;
+  /* position: absolute; */
   color: #ffffff;
   /* font-size: 3rem; */
   line-height: 1.5;
@@ -51,12 +51,6 @@
         line-height: 2.3rem;
         margin-bottom: 1.2rem;
     } */
-
-    .content {
-      /* overflow-y: auto; */
-      /* height: calc(100% - 30px); */
-    }
-
 
 @media only screen and (max-width: 990px) {
   .events {
@@ -84,3 +78,21 @@
     margin-left: 0;
   }
 }
+
+
+.events button.accordion-button.collapsed {
+  background-color: #7484cf;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+border: 2px solid white;
+  outline: none;
+}
+
+.events .accordion-body {
+  border: 2px solid white;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.events button.accordion-button.collapsed:focus {outline:0 !important; box-shadow: none;}

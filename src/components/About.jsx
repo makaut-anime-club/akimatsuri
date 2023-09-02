@@ -6,7 +6,9 @@ const aboutImages = [
   { src: "https://i.ibb.co/87c71qG/club-img-pic-2.jpg", alt: "club image initial start" },
   { src: "https://i.ibb.co/bKSRwrh/club-img-pic-1.jpg", alt: "club image featuring Kuru Kuru" },
   { src: "https://i.ibb.co/Z18WyVM/club-img-pic-3.jpg", alt: "club image featuring Kuru Kuru once more but properly" },
-  { src: "https://i.ibb.co/M9t8QfM/club-img-pic-4.jpg", alt: "club image while decorating club room" }
+  { src: "https://i.ibb.co/6bzFFM1/club-img-pic-4.jpg", alt: "club image while decorating club room" },
+  { src: "https://i.ibb.co/VgHCtMd/Ani-Club5i.jpg", alt: "blackboard work in club room" },
+  { src: "https://i.ibb.co/kSBcXWm/AniClub6.jpg", alt: "movie show in club room" },
 ]
 
 
@@ -30,6 +32,8 @@ const About = () => {
           <img src={aboutImages[1].src} alt={aboutImages[1].alt} />
           <img src={aboutImages[2].src} alt={aboutImages[2].alt} />
           <img src={aboutImages[3].src} alt={aboutImages[3].alt} />
+          <img src={aboutImages[5].src} alt={aboutImages[3].alt} />
+          <img src={aboutImages[4].src} alt={aboutImages[3].alt} />
       </div>
     </section>
   )

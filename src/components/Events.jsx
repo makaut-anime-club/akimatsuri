@@ -51,6 +51,7 @@ const Events = () => {
                   link={event.link}
                   imgLink={event.imageURL}
                   imgDescription={event.name}
+                  cardBGColor='#7484cf'
                 />
               </li>
             ))}

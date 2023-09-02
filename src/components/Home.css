@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;400&display=swap');
 .home {
   overflow-x: hidden;
   display: flex;
@@ -109,6 +110,16 @@ section#info .main-info h1 {
   width: 100%;
 }
 
+section#info .main-info div { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#info .main-info div{
+  color: white;
+  font-size: 24px;  
+}
+
 section#info .main-info div {
   box-sizing: border-box;
   padding: 0 5%;
@@ -132,7 +143,8 @@ section#activities div {
 }
 
 section#activities div img {
-  width: 200%;
+  height: 170px;
+  width: 144px;
   padding: 23px 0;
 }
 
@@ -165,10 +177,7 @@ section#activities p {
     /* z-index: 10000; */
     overflow: hidden;
   }
-  
-  .home .content {
-    /* margin: 0rem 2rem; */
-  }
+
 
   .home .content h1 {
     margin-top: 0;
@@ -203,7 +212,13 @@ section#activities p {
     border-left: none;
     border-top: 2px solid #7d1f90 !important;
     padding: 5%;
-    width: 80%;
+    width: 80%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section#info .main-info div{
+    color: white;  
   }
   
   section#activities {
@@ -251,15 +266,7 @@ section#activities p {
 }
 
 @media only screen and (max-width: 375px) {
-  
-  .home .content {
-    /* margin: 3rem 2rem; */
-  }
 
-  .home .content h1 {
-    /* font-size: 1.5rem; */
-  }
-  
   .home .bg-image::before {
     background-image: url('https://is.zobj.net/image-server/v1/images?r=5pQYsefpAIpi0dzwlTqQvmrWMTXcGyIt-VpihRYARp5iv_9mppvfAITUJ0qMSAp6rwM80ZLmQ7B2bU-XUcSapSoVNcOD1ZqB1i296AZdbrv1UdZKFVOlCcBR-IQaAaj1U92yYrnkKBFaz_1qS_VvSWb_lAYJeht_KTzmmyp4dG6I1WRIaioYhKLNd-KbsMYfnHODYjEJTRm0mB3FLbPn0CSZ480vzWzVB-gFf7T7wESUFIVTSyKr8fvVznY');
     background-position: 50% top;

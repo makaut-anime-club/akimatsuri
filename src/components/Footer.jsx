@@ -1,32 +1,25 @@
 import React from "react";
 import styles from "./Footer.module.css";
 
+import { BiLogoGmail } from 'react-icons/bi';
+import { AiOutlinePhone, AiFillInstagram } from 'react-icons/ai';
+import { BsDiscord, BsInstagram } from 'react-icons/bs';
+
 const location = "https://goo.gl/maps/ALerY7XDZZqgj1es8";
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      {/* <div className={styles["social-media"]}>
+      <div className={styles["social-media"]}>
         <ul>
-          <li>Instagram</li>
-          <li>Facebook</li>
-          <li>Discord</li>
+          <li><AiFillInstagram size={'30px'}/> @makaut_animeclub</li>
+          <li><BiLogoGmail size={'30px'}/> makautanimeclub@gmail.com</li>
+          <li><AiOutlinePhone size={'30px'}/> +91 91635 09310</li>
+          <li><AiOutlinePhone size={'30px'}/> +91 62965 05862</li>
+          <li><AiOutlinePhone size={'30px'}/> +91 96410 47507</li>
+          <li style={{fontSize: '24px'}} >Working hours &rarr; <span style={{fontWeight: 'bold'}}>10am to 6pm (Monday to Friday)</span> </li>
         </ul>
-      </div> */}
-      {/* <div className={styles["social-media"]}>
-        <ul>
-          <li>Gallery</li>
-          <li>Templates</li>
-          <li>Links</li>
-        </ul> 
-      </div> */}
-      {/* <div className={styles["social-media2"]}>
-        <ul>
-          <li>Online</li>
-          <li>Events</li>
-          <li>Stalls</li>
-        </ul>
-      </div> */}
+      </div>
       <div className={styles.map}>
         <h3>Our Location</h3>
         <iframe

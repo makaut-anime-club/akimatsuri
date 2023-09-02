@@ -1,6 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&display=swap');
 .about {
   overflow-x: hidden;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .about .bg-image {
@@ -8,8 +9,8 @@
   height: 100vh;
   width: 100vw;
   /* display: flex;
-    align-items: center;
-    justify-content: center; */
+  align-items: center;
+  justify-content: center; */
 }
 
 .about .bg-image::before {
@@ -21,7 +22,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  filter: brightness(12%);
+  filter: brightness(20%);
 }
 
 .about .content {
@@ -34,12 +35,16 @@
 }
 .home .content h1 {
   font-size: 4rem;
+  border-bottom: 1px solid white;
+  border-bottom: 1px white solid;
+  padding: 5px 0;
 }
 .about .content p {
-    font-size: 1.25rem;
-    opacity: 0.8;
-    line-height: 2.3rem;
-    margin-bottom: 1.2rem;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.25rem;
+  opacity: 0.8;
+  line-height: 2.3rem;
+  margin-bottom: 1.2rem;
 }
 
 @media only screen and (max-width: 700px){
@@ -56,8 +61,7 @@
         background-position: 50% top;
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-size: 100% auto;
-        filter: brightness(15%);
+        filter: brightness(25%);
     }
 }
 
@@ -84,24 +88,18 @@ text-align: center;
 }
 
 .club-images img{
-  width: 30rem;
+  width: 25rem;
+  height: 15rem;
   margin: 3rem;
   border-radius: 10px;
   box-shadow: 10px 5px 5px #ff4500;
 }
-.club-images img:nth-child(2) {
+.club-images img:nth-child(2), .club-images img:nth-child(4), .club-images img:nth-child(6) {
   margin-right: 50%;
 }
-.club-images img:nth-child(3) {
+.club-images img:nth-child(3), .club-images img:nth-child(5), .club-images img:nth-child(7) {
   margin-left: 50%; 
 }
-.club-images img:nth-child(4) {
-  margin-right: 50%; 
-}
-.club-images img:nth-child(5) {
-  margin-left: 50%;
-}
-
 @media only screen and (max-width: 800px) {
   .club-images {
     align-items: center;
@@ -110,7 +108,7 @@ text-align: center;
   .club-images img{
     width: 20rem;
   }
-  .club-images img:nth-child(2), .club-images img:nth-child(3), .club-images img:nth-child(4), .club-images img:nth-child(5) {
+  .club-images img:nth-child(2), .club-images img:nth-child(3), .club-images img:nth-child(4), .club-images img:nth-child(5), .club-images img:nth-child(6), .club-images img:nth-child(7) {
     margin-right: 0;
     margin-left: 0;
   }

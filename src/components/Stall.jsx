@@ -50,6 +50,7 @@ const Stall = () => {
                   link={stalls.link}
                   imgLink={stalls.imageURL}
                   imgDescription={stalls.name}
+                  cardBGColor='#732f96'
                 />
               </li>
             ))}

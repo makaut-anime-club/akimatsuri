@@ -1,11 +1,12 @@
 .footer {
-    height: 50vh;
-    background: linear-gradient(#543754, #955a95, #f044f0);
+    /* height: 50vh; */
+    background: linear-gradient(225deg, black, gray);
     display: flex;
     flex-direction: row;
     justify-content: space-around !important;
     padding: 0 0 5rem;
     color: white;
+    font-family: 'Poppins';
 }
 .footer .social-media {
     margin: 2rem 2rem;
@@ -20,7 +21,7 @@
     list-style: none;
 }
 .social-media ul li, .social-media2 ul li{
-    padding: 0.75rem 1rem;
+    padding: 0.75rem;
 }
 .footer .map {
     display: flex;
@@ -28,12 +29,39 @@
     text-align: center;
     margin: 2rem;
 }
-@media only screen and (max-width: 500px) {
+.footer li svg {
+    border: 1px solid white;
+    border-radius: 100%;
+    margin: 0 0.8rem;
+    padding: 2px;
+}
+@media only screen and (max-width: 900px) {
     .footer {
         display: flex;
+        flex-direction: column-reverse;
         justify-content: space-around !important;
         align-items: center;
         height: auto;
+    }
+    .footer .social-media ul li:nth-child(6){
+        font-size: 20px !important;
+        display: flex;
+        flex-direction: column; 
+    }
+}
+@media only screen and (max-width: 500px) {
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around !important;
+        align-items: center;
+        height: auto;
+    }
+    .footer ul {
+        padding: 0;
+    }
+    .footer li svg {
+        margin: 0 0rem;
     }
     /* .footer .social-media {
         border-right: none;
@@ -47,3 +75,9 @@
 }
 
 } 
+
+@media only screen and (max-width: 350px) {
+    .footer .map iframe{
+        width: 280px;
+    }
+}
