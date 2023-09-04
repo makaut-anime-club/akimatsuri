@@ -1,21 +1,19 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 import './Home.css'
 import Carousel from "./UI/Carousel";
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
 
 const Home = () => {
   const windowWidth = useRef(window.innerWidth)
-  const [width, setWidth] = useState(windowWidth.current)
-  console.log(windowWidth.current)
+  const [width] = useState(windowWidth.current)
   return (
     <main>
 
       <section id="home" className="home">
         <div className="bg-image center">
           <div className="banner" style={{ zIndex: '0' }}>
-            <img src={width > 600 ? "https://cdn.discordapp.com/attachments/1139851071930519562/1139871205952847872/Akimatsuri_4.png": "https://cdn.discordapp.com/attachments/1139851071930519562/1139853020541227028/Final_4.png"} alt="banner image - akimatsuri" />
+            <img src={width > 600 ? "https://i.ibb.co/ZxkyyLw/desktop-view-wallpaper.png": "https://i.ibb.co/JC8mYdR/mobile-view-wallpaper.png"} alt="banner image - akimatsuri" />
           </div>
           <div className="content">
             {/* <div className="info">

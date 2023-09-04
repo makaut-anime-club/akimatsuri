@@ -1,9 +1,8 @@
-import React from "react";
 import styles from "./Footer.module.css";
 
 import { BiLogoGmail } from 'react-icons/bi';
 import { AiOutlinePhone, AiFillInstagram } from 'react-icons/ai';
-import { BsDiscord, BsInstagram } from 'react-icons/bs';
+// import { BsDiscord, BsInstagram } from 'react-icons/bs';
 
 const location = "https://goo.gl/maps/ALerY7XDZZqgj1es8";
 
@@ -27,7 +26,7 @@ const Footer = () => {
           width="350"
           height="300"
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
         <div className={styles['location-link']}>
           <button style={{textDecoration: 'none', fontSize: '16px', outline: 'none', border: '2px solid white', borderRadius: '40px', padding: '0.75rem', margin: '1rem', background: 'transparent', color: 'white'}}><a type="button" href={location} style={{textDecoration: 'none', fontSize: '16px', color: 'white'}}>Click to see in Google maps</a></button>

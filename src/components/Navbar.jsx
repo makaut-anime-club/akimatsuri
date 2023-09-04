@@ -20,11 +20,11 @@ const Navbar = () => {
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img
-            src="https://lh3.googleusercontent.com/a/AAcHTtdbald_ZCkvT2lRRQndb2KlgRdvqqH1gwknJspqxUFC2g=s96-c-rg-br100"
+            src="/Anime_club_logo.jpg"
             alt="Logo"
             width="40"
             height="40"
-            className="d-inline-block align-text-top"
+            className="d-inline-block align-text-top rounded-circle"
           />
         </a>
         <button onClick={toggleNav} className={navOpen ? "navbar-toggler" : "navbar-toggler collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{border: '0px'}}>
