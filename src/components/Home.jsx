@@ -3,6 +3,7 @@ import { useRef, useState } from "react";
 import './Home.css'
 import Carousel from "./UI/Carousel";
 import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
 
 const Home = () => {
   const windowWidth = useRef(window.innerWidth)
@@ -57,6 +58,13 @@ const Home = () => {
             <img src="/enjoy.png" alt="party img" />
             <p>Enjoy</p>
             </div>
+      </section>
+      <section id="timeline" style={{height: '100vh', background: 'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)', textAlign: 'center'}}>
+        <h3 style={{color: 'white', textAlign: 'center', padding: '2rem'}}>Event Timings</h3>
+        <div className="image-event-timeline" style={{padding: '2rem 0', textAlign: 'center'}}>
+          <img src="/eventTimings.png" alt="" />
+        </div>
+        <a href="/eventTimings.png" download><button>Download Timings</button></a>
       </section>
     </main>
   );

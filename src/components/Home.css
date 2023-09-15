@@ -64,7 +64,7 @@
   margin: 0% 33%;
 }
 
-.home .content button {
+.home .content button, #timeline button {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   width: 15rem;
@@ -82,7 +82,7 @@ button:active {
   cursor: pointer;
 }
 
-.home .content button:hover {
+.home .content button:hover, #timeline button:hover {
   background: rgb(222, 78, 222);
 }
 
@@ -238,7 +238,7 @@ section#activities p {
 }
 
 @media only screen and (max-width: 600px) {
-  .home .content button {
+  .home .content button, #timeline button {
     font-size: 1.25rem;
     width: 100%;
     background: rgb(61, 134, 128);

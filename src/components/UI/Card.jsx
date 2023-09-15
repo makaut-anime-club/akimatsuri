@@ -19,6 +19,9 @@ const Card = ({ title, body, link, imgLink, imgDescription, cardBGColor }) => {
         style={{}}
       />
       <div className="card-body">
+        {/* <div className="mode d-flex">
+        <span style={{fontSize: '15px', margin: '0.5rem 0', border: '1px solid white', padding: '5px', borderRadius: '100px'}}>Mode: Online</span>
+        </div> */}
         <Accordion>
       <Accordion.Item style={{background: 'black', color: 'white', margin: '0 0 1rem', outline: 'none', border: 'none'}} eventKey="0">
         <Accordion.Header>{title}</Accordion.Header>
