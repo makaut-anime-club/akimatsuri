@@ -84,6 +84,9 @@ margin: 1rem;
 .modal-header .btn-close {
   border: none;
 }
+.modal-body img{
+  width: 87vw;
+}
 
 @media only screen and (min-width: 576px) {
   /* .modal-body {
@@ -92,4 +95,8 @@ margin: 1rem;
   .modal-body h3 {
     font-size: 28px !important;
   }
+  .modal-body img{
+    width: auto;
+  }
+
 }

@@ -110,14 +110,14 @@ section#info .main-info h1 {
   width: 100%;
 }
 
-section#info .main-info div { 
+section#info .main-info div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 section#info .main-info div{
   color: white;
-  font-size: 24px;  
+  font-size: 24px;
 }
 
 section#info .main-info div {
@@ -183,19 +183,19 @@ section#activities p {
     margin-top: 0;
     font-size: 3rem;
   }
-  
+
   .home .content p {
     font-size: 1rem;
     /* margin: 0; */
   }
-  
+
   .home .content {
     font-size: 1.5rem;
     margin: 5rem auto;
     margin-bottom: 1.5rem;
     overflow: hidden;
   }
-  
+
   .home .bg-image::before {
     background-image: url('https://is.zobj.net/image-server/v1/images?r=5pQYsefpAIpi0dzwlTqQvmrWMTXcGyIt-VpihRYARp5iv_9mppvfAITUJ0qMSAp6rwM80ZLmQ7B2bU-XUcSapSoVNcOD1ZqB1i296AZdbrv1UdZKFVOlCcBR-IQaAaj1U92yYrnkKBFaz_1qS_VvSWb_lAYJeht_KTzmmyp4dG6I1WRIaioYhKLNd-KbsMYfnHODYjEJTRm0mB3FLbPn0CSZ480vzWzVB-gFf7T7wESUFIVTSyKr8fvVznY');
     background-position: 50% top;
@@ -203,35 +203,35 @@ section#activities p {
     background-attachment: scroll;
     background-size: 100% auto;
   }
-  
+
   section#info .main-info {
     flex-direction: column;
   }
-  
+
   section#info .main-info div {
     border-left: none;
     border-top: 2px solid #7d1f90 !important;
     padding: 5%;
-    width: 80%;  
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   section#info .main-info div{
-    color: white;  
+    color: white;
   }
-  
+
   section#activities {
     background: linear-gradient(white, #aa67aa);
     padding: 10% 0;
     display: flex;
     flex-direction: column;
   }
-  
+
   section#activities div {
     padding: 7%;
   }
-  
+
   .car-ousel {
     margin: 0% 10%;
   }
@@ -247,11 +247,11 @@ section#activities p {
     border: black 2px white;
     /* padding: 1rem 1rem; */
   }
-  
+
   .home .content {
     left: calc(35% - 0.75 * 2rem);
   }
-  
+
   section#activities {
     background: linear-gradient(white, #475e76) !important;
   }
@@ -263,6 +263,10 @@ section#activities p {
     /* background:rgb(245, 193, 245) !important; */
     color: white;
   }
+  .image-event-timeline img{
+    width: 80vw !important;
+  }
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -274,4 +278,11 @@ section#activities p {
     background-attachment: scroll;
     background-size: 125% auto;
   }
+  .image-event-timeline img{
+    width: 90vw !important;
+  }
+}
+
+.image-event-timeline img{
+  width: 60vh;
 }

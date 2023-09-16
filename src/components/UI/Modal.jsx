@@ -1,6 +1,6 @@
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function PopupModal(props) {
   return (
@@ -46,14 +46,15 @@ function PopupModal(props) {
 
       </Modal.Body>
       <Modal.Footer style={{ textAlign: "center" }}>
-        <Link to="/events">
+        {/* <Link to="/events">
           <Button
             onClick={props.onHide}
             style={{ backgroundColor: "transparent" }}
           >
             Go to Events
           </Button>
-        </Link>
+        </Link> */} <p style={{color: 'white', textAlign: 'left', width: '75%'}}>🏷️ Spot Registration will be done on a first come first serve basis</p>
+
       </Modal.Footer>
     </Modal>
   );
